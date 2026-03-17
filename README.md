@@ -6,12 +6,12 @@ HW2 NLP_W26 class
 
 The codebase is divided into four primary tasks:
 
-### Task 1: Custom Word Embeddings
+### Task 1: Training Word Embeddings
 * **Dataset:** Simple English Wikipedia (`wikimedia/wikipedia`, `20231101.simple` snapshot) loaded via Hugging Face. 
 * **Models:** Continuous Bag of Words (CBOW) and Skip-gram neural networks.
 * **Objective:** Train custom embedding matrices from scratch to capture semantic relationships and word contexts from a restricted, basic English vocabulary.
 
-### Task 2: Pre-trained Legacy Models
+### Task 2: Comparing Word Embeddings
 * **Models:** Google News 300 and GloVe 100.
 * **Objective:** Load and prepare established, pre-trained embedding spaces for comparative analysis against the custom-trained Wikipedia models.
 
